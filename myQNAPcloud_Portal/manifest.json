@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "myQNAPcloud web portal",
+	"description": "myQNAPcloud Service is a cloud service provided by QNAP for NAS users to easily publish and access their QNAP NAS applications and services on the Internet by simple configuration.",
+	"version": "1.0",
+	"icons": {
+		"128": "128.png"
+	},
+	"app": {
+		"urls": [
+			"https://www.myQNAPcloud.com/ChromeApp/"
+		],
+		"launch": {
+			"web_url": "https://www.myqnapcloud.com/"
+		}
+	},
+	"permissions": [
+		"unlimitedStorage",
+		"notifications"
+	]
+}
